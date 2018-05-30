@@ -1,6 +1,6 @@
 {
   "name": "semantic-ui-wordpress-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A component to display posts of a wordpress site",
   "main": "./build/index.js",
   "author": "Rodrigo Santos da Silva<rodrigo.saint01@live.com>",
@@ -10,6 +10,7 @@
   "maintainers": [
     "Rodrigo Santos da Silva <rodrigo.saint01@live.com>"
   ],
+  "homepage": "https://rodrigosaint.github.io/semantic-ui-wordpress-components/",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode production --optimize-minimize",
     "prepublish": "npm run build"
@@ -39,5 +40,14 @@
   },
   "files": [
     "build"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "wordpress",
+    "resume",
+    "online-resume",
+    "semantic-ui",
+    "api"
   ]
 }
